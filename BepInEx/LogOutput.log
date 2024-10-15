@@ -1,0 +1,914 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - EscapeFromTarkov (2024-10-13 PM 5:41:30)
+[Info   :   BepInEx] Running under Unity v0.14.9.3062
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [spt-prepatch 3.9.8.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Info   :   BepInEx] Patching [Assembly-CSharp] with [SPT.PrePatch.SPTPrePatcher]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 9 plugins to load
+[Info   :   BepInEx] Loading [Configuration Manager 18.0.1]
+[Info   :   BepInEx] Loading [SPT.Custom 3.9.8]
+[Info   :SPT.Custom] Loading: SPT.Custom
+[Info   :ModulePatch] Enabled patch EasyAssetsPatch
+[Info   :ModulePatch] Enabled patch EasyBundlePatch
+[Info   :ModulePatch] Enabled patch BossSpawnChancePatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch
+[Info   :ModulePatch] Enabled patch CoreDifficultyPatch
+[Info   :ModulePatch] Enabled patch OfflineRaidMenuPatch
+[Info   :ModulePatch] Enabled patch OfflineRaidSettingsMenuPatch
+[Info   :ModulePatch] Enabled patch VersionLabelPatch
+[Info   :ModulePatch] Enabled patch IsEnemyPatch
+[Info   :ModulePatch] Enabled patch BotCalledDataTryCallPatch
+[Info   :ModulePatch] Enabled patch BotOwnerDisposePatch
+[Info   :ModulePatch] Enabled patch LocationLootCacheBustingPatch
+[Info   :ModulePatch] Enabled patch CheckAndAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotSelfEnemyPatch
+[Info   :ModulePatch] Enabled patch AddEnemyToAllGroupsInBotZonePatch
+[Info   :ModulePatch] Enabled patch AirdropPatch
+[Info   :ModulePatch] Enabled patch AirdropFlarePatch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/bossconvert
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bossconvert
+[Info   :ModulePatch] Enabled patch CustomAiPatch
+[Info   :ModulePatch] Enabled patch AddTraitorScavsPatch
+[Info   :ModulePatch] Enabled patch ExitWhileLootingPatch
+[Info   :ModulePatch] Enabled patch QTEPatch
+[Info   :ModulePatch] Enabled patch PmcFirstAidPatch
+[Info   :ModulePatch] Enabled patch SettingsLocationPatch
+[Info   :ModulePatch] Enabled patch SetLocationIdOnRaidStartPatch
+[Info   :ModulePatch] Enabled patch RagfairFeePatch
+[Info   :ModulePatch] Enabled patch ScavQuestPatch
+[Info   :ModulePatch] Enabled patch FixBrokenSpawnOnSandboxPatch
+[Info   :ModulePatch] Enabled patch BTRControllerInitPatch
+[Info   :ModulePatch] Enabled patch BTRPathLoadPatch
+[Info   :ModulePatch] Enabled patch BTRActivateTraderDialogPatch
+[Info   :ModulePatch] Enabled patch BTRInteractionPatch
+[Info   :ModulePatch] Enabled patch BTRExtractPassengersPatch
+[Info   :ModulePatch] Enabled patch BTRBotAttachPatch
+[Info   :ModulePatch] Enabled patch BTRReceiveDamageInfoPatch
+[Info   :ModulePatch] Enabled patch BTRTurretCanShootPatch
+[Info   :ModulePatch] Enabled patch BTRTurretDefaultAimingPositionPatch
+[Info   :ModulePatch] Enabled patch BTRIsDoorsClosedPath
+[Info   :ModulePatch] Enabled patch BTRPatch
+[Info   :ModulePatch] Enabled patch BTRTransferItemsPatch
+[Info   :ModulePatch] Enabled patch BTREndRaidItemDeliveryPatch
+[Info   :ModulePatch] Enabled patch BTRDestroyAtRaidEndPatch
+[Warning:  HarmonyX] BTRVehicleMovementSpeedPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method virtual void VehicleBase::Update() instead of virtual void VehicleBase::Update().
+[Info   :ModulePatch] Enabled patch BTRVehicleMovementSpeedPatch
+[Info   :ModulePatch] Enabled patch BTRPathConfigMapPrefixPatch
+[Info   :ModulePatch] Enabled patch ScavItemCheckmarkPatch
+[Info   :ModulePatch] Enabled patch ResetTraderServicesPatch
+[Info   :ModulePatch] Enabled patch CultistAmuletRemovalPatch
+[Info   :ModulePatch] Enabled patch HalloweenExtractPatch
+[Info   :ModulePatch] Enabled patch ClampRagdollPatch
+[Info   :ModulePatch] Enabled patch DisablePvEPatch
+[Info   :ModulePatch] Enabled patch InsurancePlaceItem
+[Info   :ModulePatch] Enabled patch FileCachePatch
+[Info   :ModulePatch] Enabled patch PMCSpawnParamPatch
+[Info   :ModulePatch] Enabled patch FixBotgroupMarkofTheUnknown
+[Info   :SPT.Custom] Completed: SPT.Custom
+[Info   :   BepInEx] Loading [spt.Singleplayer 3.9.8]
+[Info   :spt.Singleplayer] Loading: SPT.SinglePlayer
+[Info   :ModulePatch] Enabled patch OfflineSaveProfilePatch
+[Info   :ModulePatch] Enabled patch ExperienceGainPatch
+[Info   :ModulePatch] Enabled patch ScavExperienceGainPatch
+[Info   :ModulePatch] Enabled patch MainMenuControllerPatch
+[Info   :ModulePatch] Enabled patch PlayerPatch
+[Info   :ModulePatch] Enabled patch SelectLocationScreenPatch
+[Info   :ModulePatch] Enabled patch InsuranceScreenPatch
+[Info   :ModulePatch] Enabled patch BotTemplateLimitPatch
+[Info   :ModulePatch] Enabled patch GetNewBotTemplatesPatch
+[Info   :ModulePatch] Enabled patch RemoveUsedBotProfilePatch
+[Info   :ModulePatch] Enabled patch DogtagPatch
+[Info   :ModulePatch] Enabled patch LoadOfflineRaidScreenPatch
+[Info   :ModulePatch] Enabled patch ScavPrefabLoadPatch
+[Info   :ModulePatch] Enabled patch ScavProfileLoadPatch
+[Info   :ModulePatch] Enabled patch ScavExfilPatch
+[Info   :ModulePatch] Enabled patch ExfilPointManagerPatch
+[Info   :ModulePatch] Enabled patch TinnitusFixPatch
+[Info   :ModulePatch] Enabled patch MaxBotPatch
+[Info   :ModulePatch] Enabled patch SpawnPmcPatch
+[Info   :ModulePatch] Enabled patch PostRaidHealingPricePatch
+[Info   :ModulePatch] Enabled patch EndByTimerPatch
+[Info   :ModulePatch] Enabled patch InRaidQuestAvailablePatch
+[Info   :ModulePatch] Enabled patch PostRaidHealScreenPatch
+[Info   :ModulePatch] Enabled patch VoIPTogglerPatch
+[Info   :ModulePatch] Enabled patch MidRaidQuestChangePatch
+[Info   :ModulePatch] Enabled patch HealthControllerPatch
+[Info   :ModulePatch] Enabled patch LighthouseBridgePatch
+[Info   :ModulePatch] Enabled patch LighthouseTransmitterPatch
+[Info   :ModulePatch] Enabled patch EmptyInfilFixPatch
+[Info   :ModulePatch] Enabled patch SmokeGrenadeFuseSoundFixPatch
+[Info   :ModulePatch] Enabled patch PlayerToggleSoundFixPatch
+[Info   :ModulePatch] Enabled patch PluginErrorNotifierPatch
+[Info   :ModulePatch] Enabled patch SpawnProcessNegativeValuePatch
+[Info   :ModulePatch] Enabled patch InsuredItemManagerStartPatch
+[Info   :ModulePatch] Enabled patch MapReadyButtonPatch
+[Info   :ModulePatch] Enabled patch LabsKeycardRemovalPatch
+[Info   :ModulePatch] Enabled patch ScavLateStartPatch
+[Info   :ModulePatch] Enabled patch GetTraderServicesPatch
+[Info   :ModulePatch] Enabled patch PurchaseTraderServicePatch
+[Info   :ModulePatch] Enabled patch ScavSellAllPriceStorePatch
+[Info   :ModulePatch] Enabled patch ScavSellAllRequestPatch
+[Info   :ModulePatch] Enabled patch HideoutQuestIgnorePatch
+[Info   :ModulePatch] Enabled patch LightKeeperServicesPatch
+[Info   :ModulePatch] Enabled patch ScavEncyclopediaPatch
+[Info   :ModulePatch] Enabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Enabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Enabled patch ArmorDamageCounterPatch
+[Info   :ModulePatch] Enabled patch FixAchievementsPatch
+[Info   :spt.Singleplayer] Completed: SPT.SinglePlayer
+[Info   :   BepInEx] Loading [SPT.Core 3.9.8]
+[Info   :  SPT.Core] Loading: SPT.Core
+[Info   :ModulePatch] Enabled patch ConsistencySinglePatch
+[Info   :ModulePatch] Enabled patch ConsistencyMultiPatch
+[Info   :ModulePatch] Enabled patch GameValidationPatch
+[Info   :ModulePatch] Enabled patch BattlEyePatch
+[Info   :ModulePatch] Enabled patch SslCertificatePatch
+[Info   :ModulePatch] Enabled patch UnityWebRequestPatch
+[Info   :ModulePatch] Enabled patch WebSocketPatch
+[Info   :ModulePatch] Enabled patch TransportPrefixPatch
+[Info   :  SPT.Core] Completed: SPT.Core
+[Info   :   BepInEx] Loading [SPT.Debugging 3.9.8]
+[Info   :SPT.Debugging] Loading: SPT.Debugging
+[Info   :ModulePatch] Enabled patch EndRaidDebug
+[Info   :ModulePatch] Enabled patch LoggerClassLogPatch
+[Info   :SPT.Debugging] Completed: SPT.Debugging
+[Info   :   BepInEx] Loading [Fika.Core 0.9.9015]
+[Info   : Fika.Core] Received NatPunchServer config from server:
+[Info   : Fika.Core] Enable: False
+[Info   : Fika.Core] Port: 6790
+[Info   : Fika.Core] NatIntroduceAmount: 1
+[Info   :ModulePatch] Enabled patch FikaVersionLabel_Patch
+[Info   :ModulePatch] Enabled patch DisableReadyButton_Patch
+[Info   :ModulePatch] Enabled patch DisableInsuranceReadyButton_Patch
+[Info   :ModulePatch] Enabled patch DisableMatchSettingsReadyButton_Patch
+[Info   :ModulePatch] Enabled patch TarkovApplication_LocalGamePreparer_Patch
+[Info   :ModulePatch] Enabled patch TarkovApplication_LocalGameCreator_Patch
+[Info   :ModulePatch] Enabled patch DeathFade_Patch
+[Info   :ModulePatch] Enabled patch NonWaveSpawnScenario_Patch
+[Info   :ModulePatch] Enabled patch WaveSpawnScenario_Patch
+[Info   :ModulePatch] Enabled patch WeatherNode_Patch
+[Info   :ModulePatch] Enabled patch MatchmakerAcceptScreen_Awake_Patch
+[Info   :ModulePatch] Enabled patch MatchmakerAcceptScreen_Show_Patch
+[Info   :ModulePatch] Enabled patch Minefield_method_2_Patch
+[Info   :ModulePatch] Enabled patch BotCacher_Patch
+[Info   :ModulePatch] Enabled patch AbstractGame_InRaid_Patch
+[Info   :ModulePatch] Enabled patch DisconnectButton_Patch
+[Info   :ModulePatch] Enabled patch ChangeGameModeButton_Patch
+[Info   :ModulePatch] Enabled patch MenuTaskBar_Patch
+[Info   :ModulePatch] Enabled patch GameWorld_Create_Patch
+[Info   :ModulePatch] Enabled patch World_AddSpawnQuestLootPacket_Patch
+[Info   :ModulePatch] Enabled patch TOS_Patch
+[Info   :ModulePatch] Disabled patch BotDifficultyPatch
+[Info   :ModulePatch] Disabled patch AirdropPatch
+[Info   :ModulePatch] Disabled patch AirdropFlarePatch
+[Info   :ModulePatch] Disabled patch VersionLabelPatch
+[Info   :ModulePatch] Disabled patch EmptyInfilFixPatch
+[Info   :ModulePatch] Disabled patch OfflineSpawnPointPatch
+[Info   :ModulePatch] Disabled patch BotTemplateLimitPatch
+[Info   :ModulePatch] Disabled patch OfflineRaidSettingsMenuPatch
+[Info   :ModulePatch] Disabled patch AddEnemyToAllGroupsInBotZonePatch
+[Info   :ModulePatch] Disabled patch MaxBotPatch
+[Info   :ModulePatch] Disabled patch LabsKeycardRemovalPatch
+[Info   :ModulePatch] Disabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Disabled patch ArmorDamageCounterPatch
+[Info   :ModulePatch] Disabled patch DogtagPatch
+[Info   :ModulePatch] Disabled patch OfflineSaveProfilePatch
+[Info   :ModulePatch] Disabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Disabled patch DisablePvEPatch
+[Info   :ModulePatch] Disabled patch ClampRagdollPatch
+[Info   :ModulePatch] Disabled patch LighthouseBridgePatch
+[Info   :ModulePatch] Disabled patch AddEnemyToAllGroupsInBotZonePatch
+[Info   :ModulePatch] Disabled patch BTRInteractionPatch
+[Info   :ModulePatch] Disabled patch BTRExtractPassengersPatch
+[Info   :ModulePatch] Disabled patch BTRPatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch_Override
+[Info   :ModulePatch] Enabled patch ScavProfileLoad_Override
+[Info   :ModulePatch] Enabled patch MaxBotPatch_Override
+[Info   :ModulePatch] Enabled patch BotTemplateLimitPatch_Override
+[Info   :ModulePatch] Enabled patch OfflineRaidSettingsMenuPatch_Override
+[Info   :ModulePatch] Enabled patch AddEnemyToAllGroupsInBotZonePatch_Override
+[Info   :ModulePatch] Enabled patch AirdropBox_Patch
+[Info   :ModulePatch] Enabled patch FikaAirdropFlare_Patch
+[Info   :ModulePatch] Enabled patch LighthouseBridge_Patch
+[Info   :ModulePatch] Enabled patch LighthouseMines_Patch
+[Info   : Fika.Core] Received config from server:
+[Info   : Fika.Core] UseBTR: True
+[Info   : Fika.Core] FriendlyFire: True
+[Info   : Fika.Core] DynamicVExfils: False
+[Info   : Fika.Core] AllowFreeCam: False
+[Info   : Fika.Core] AllowSpectateFreeCam: False
+[Info   : Fika.Core] AllowItemSending: True
+[Info   : Fika.Core] BlacklistedItems: 
+[Info   : Fika.Core] ForceSaveOnDeath: False
+[Info   : Fika.Core] UseInertia: True
+[Info   : Fika.Core] SharedQuestProgression: False
+[Info   : Fika.Core] Fika is loaded! Running version: 0.9.9015.15435
+[Info   :RequestHandler] [REQUEST]: /singleplayer/airdrop/config
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/airdrop/config
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/difficulty/core/core
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/difficulty/core/core
+[Info   :ModulePatch] Enabled patch ItemContext_Patch
+[Info   :   BepInEx] Loading [DrakiaXYZ-BigBrain 1.1.0]
+[Info   :DrakiaXYZ-BigBrain] Loading: DrakiaXYZ-BigBrain
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivatePatch
+[Info   :ModulePatch] Enabled patch BotBrainCreateLogicNodePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainUpdatePatch
+[Info   :ModulePatch] Enabled patch BotAgentUpdatePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivateLayerPatch
+[Info   :ModulePatch] Enabled patch BotStandartBotBrainActivatePatch
+[Info   :DrakiaXYZ-BigBrain] Completed: DrakiaXYZ-BigBrain
+[Info   :   BepInEx] Loading [DrakiaXYZ-Waypoints 1.5.2]
+[Info   :ModulePatch] Enabled patch DebugPatch
+[Info   :ModulePatch] Enabled patch WaypointPatch
+[Info   :ModulePatch] Enabled patch DoorLinkPatch
+[Info   :ModulePatch] Enabled patch DoorLinkStateChangePatch
+[Info   :ModulePatch] Enabled patch SwitchDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch ExfilDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch FindPathPatch
+[Info   :   BepInEx] Loading [SAIN 3.1.0]
+[Info   :ModulePatch] Enabled patch StopRefillMagsPatch
+[Info   :ModulePatch] Enabled patch SetEnvironmentPatch
+[Info   :ModulePatch] Enabled patch SetPanicPointPatch
+[Info   :ModulePatch] Enabled patch AddPointToSearchPatch
+[Info   :ModulePatch] Enabled patch TurnDamnLightOffPatch
+[Info   :ModulePatch] Enabled patch GrenadeThrownActionPatch
+[Info   :ModulePatch] Enabled patch GrenadeExplosionActionPatch
+[Info   :ModulePatch] Enabled patch ShallKnowEnemyPatch
+[Info   :ModulePatch] Enabled patch ShallKnowEnemyLatePatch
+[Info   :ModulePatch] Enabled patch HaveSeenEnemyPatch
+[Info   :ModulePatch] Enabled patch StopSetToNavMeshPatch
+[Info   :ModulePatch] Enabled patch FightShallReloadFixPatch
+[Info   :ModulePatch] Enabled patch EnableVaultPatch
+[Info   :ModulePatch] Enabled patch BotMemoryAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotGroupAddEnemyPatch
+[Info   :ModulePatch] Enabled patch FixItemTakerPatch
+[Info   :ModulePatch] Enabled patch FixItemTakerPatch2
+[Info   :ModulePatch] Enabled patch RotateClampPatch
+[Info   :ModulePatch] Enabled patch EncumberedPatch
+[Info   :ModulePatch] Enabled patch DoorOpenerPatch
+[Info   :ModulePatch] Enabled patch DoorDisabledPatch
+[Info   :ModulePatch] Enabled patch CrawlPatch
+[Info   :ModulePatch] Enabled patch CrawlPatch2
+[Info   :ModulePatch] Enabled patch PoseStaminaPatch
+[Info   :ModulePatch] Enabled patch AimStaminaPatch
+[Info   :ModulePatch] Enabled patch GlobalShootSettingsPatch
+[Info   :ModulePatch] Enabled patch GlobalLookPatch
+[Info   :ModulePatch] Enabled patch TryPlayShootSoundPatch
+[Info   :ModulePatch] Enabled patch OnMakingShotPatch
+[Info   :ModulePatch] Enabled patch HearingSensorPatch
+[Info   :ModulePatch] Enabled patch VoicePatch
+[Info   :ModulePatch] Enabled patch GrenadeCollisionPatch
+[Info   :ModulePatch] Enabled patch GrenadeCollisionPatch2
+[Info   :ModulePatch] Enabled patch ToggleSoundPatch
+[Info   :ModulePatch] Enabled patch SpawnInHandsSoundPatch
+[Info   :ModulePatch] Enabled patch PlaySwitchHeadlightSoundPatch
+[Info   :ModulePatch] Enabled patch BulletImpactPatch
+[Info   :ModulePatch] Enabled patch TreeSoundPatch
+[Info   :ModulePatch] Enabled patch DoorBreachSoundPatch
+[Info   :ModulePatch] Enabled patch DoorOpenSoundPatch
+[Info   :ModulePatch] Enabled patch FootstepSoundPatch
+[Info   :ModulePatch] Enabled patch SprintSoundPatch
+[Info   :ModulePatch] Enabled patch GenericMovementSoundPatch
+[Info   :ModulePatch] Enabled patch JumpSoundPatch
+[Info   :ModulePatch] Enabled patch DryShotPatch
+[Info   :ModulePatch] Enabled patch ProneSoundPatch
+[Info   :ModulePatch] Enabled patch SoundClipNameCheckerPatch
+[Info   :ModulePatch] Enabled patch SoundClipNameCheckerPatch2
+[Info   :ModulePatch] Enabled patch AimSoundPatch
+[Info   :ModulePatch] Enabled patch LootingSoundPatch
+[Info   :ModulePatch] Enabled patch SetInHandsGrenadePatch
+[Info   :ModulePatch] Enabled patch SetInHandsFoodPatch
+[Info   :ModulePatch] Enabled patch SetInHandsMedsPatch
+[Info   :ModulePatch] Enabled patch JumpPainPatch
+[Info   :ModulePatch] Enabled patch PlayerHurtPatch
+[Info   :ModulePatch] Enabled patch PlayerTalkPatch
+[Info   :ModulePatch] Enabled patch BotTalkPatch
+[Info   :ModulePatch] Enabled patch BotTalkManualUpdatePatch
+[Info   :ModulePatch] Enabled patch DisableLookUpdatePatch
+[Info   :ModulePatch] Enabled patch UpdateLightEnablePatch
+[Info   :ModulePatch] Enabled patch UpdateLightEnablePatch2
+[Info   :ModulePatch] Enabled patch ToggleNightVisionPatch
+[Info   :ModulePatch] Enabled patch SetPartPriorityPatch
+[Info   :ModulePatch] Enabled patch GlobalLookSettingsPatch
+[Info   :ModulePatch] Enabled patch WeatherTimeVisibleDistancePatch
+[Info   :ModulePatch] Enabled patch NoAIESPPatch
+[Info   :ModulePatch] Enabled patch BotLightTurnOnPatch
+[Info   :ModulePatch] Enabled patch VisionSpeedPatch
+[Info   :ModulePatch] Enabled patch VisionDistancePatch
+[Info   :ModulePatch] Enabled patch CheckFlashlightPatch
+[Info   :ModulePatch] Enabled patch DoHitAffectPatch
+[Info   :ModulePatch] Enabled patch HitAffectApplyPatch
+[Info   :ModulePatch] Enabled patch PlayerHitReactionDisablePatch
+[Info   :ModulePatch] Enabled patch SetAimStatusPatch
+[Info   :ModulePatch] Enabled patch AimOffsetPatch
+[Info   :ModulePatch] Enabled patch AimTimePatch
+[Info   :ModulePatch] Enabled patch ForceNoHeadAimPatch
+[Info   :ModulePatch] Enabled patch AimRotateSpeedPatch
+[Info   :ModulePatch] Enabled patch ResetGrenadePatch
+[Info   :ModulePatch] Enabled patch SetGrenadePatch
+[Info   :ModulePatch] Enabled patch FullAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch2
+[Info   :ModulePatch] Enabled patch SemiAutoPatch3
+[Info   :ModulePatch] Enabled patch AddBotComponentPatch
+[Info   :ModulePatch] Enabled patch AddGameWorldPatch
+[Info   :ModulePatch] Enabled patch GetBotController
+[Info   :ModulePatch] Enabled patch GetBotSpawner
+[Message:   BepInEx] Chainloader startup complete
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST]: /singleplayer/release
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/release
+[Info   :RequestHandler] [REQUEST]: /singleplayer/enableBSGlogging
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/enableBSGlogging
+[Info   :RequestHandler] [REQUEST]: /singleplayer/bundles
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bundles
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   :ModulePatch] Server version: SPT 3.9.8 - a0c79a
+[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Project Fika Detected.]
+[Info   : Fika.Core] Server version check passed. Expected: >2.2.8, received: 2.2.8
+[Info   :FikaModHandler] Loaded plugin: [Configuration Manager] with GUID [com.bepis.bepinex.configurationmanager] and crc32 [2453335703]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Custom] with GUID [com.SPT.custom] and crc32 [4105500996]
+[Info   :FikaModHandler] Loaded plugin: [spt.Singleplayer] with GUID [com.SPT.singleplayer] and crc32 [1412309506]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Core] with GUID [com.SPT.core] and crc32 [4191002137]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Debugging] with GUID [com.SPT.debugging] and crc32 [392204029]
+[Info   :FikaModHandler] Loaded plugin: [Fika.Core] with GUID [com.fika.core] and crc32 [2090863391]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-BigBrain] with GUID [xyz.drakia.bigbrain] and crc32 [2017169171]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-Waypoints] with GUID [xyz.drakia.waypoints] and crc32 [2106618053]
+[Info   :FikaModHandler] Loaded plugin: [SAIN] with GUID [me.sol.sain] and crc32 [4183800089]
+[Info   :RequestHandler] [REQUEST]: /fika/client/check/mods
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /fika/client/check/mods
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
+[Info   :NetManagerUtils] FikaGameObject has been created!
+[Info   :NetManagerUtils] FikaServer has started!
+[Info   :Fika.Server] Started Fika Server
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/getRaidTime
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/getRaidTime
+[Info   :NetManagerUtils] Creating CoopHandler...
+[Info   :  CoopGame] Setting spawn point to name: 'BoilerStart1 (71)', id: '0bfe7760-902e-4b79-8722-7ce2ad0a970c'
+[Info   : Fika.Core] Setting up DogTag
+[Info   :  CoopGame] Starting task to wait for other players.
+[Info   : Fika.Core] Retrieving Core settings
+[Info   : Fika.Core] Retrieving data for: marksman, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: marksman, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: marksman, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: marksman, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: assault, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: assault, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: assault, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: assault, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossTest, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossTest, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossTest, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossTest, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossBully, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossBully, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossBully, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossBully, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerTest, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerTest, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerTest, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerTest, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBully, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBully, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBully, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBully, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossKilla, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossKilla, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossKilla, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossKilla, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossKojaniy, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossKojaniy, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossKojaniy, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossKojaniy, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerKojaniy, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerKojaniy, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerKojaniy, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerKojaniy, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: pmcBot, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: pmcBot, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: pmcBot, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: pmcBot, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: cursedAssault, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: cursedAssault, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: cursedAssault, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: cursedAssault, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossGluhar, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossGluhar, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossGluhar, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossGluhar, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerGluharAssault, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerGluharAssault, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerGluharAssault, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerGluharAssault, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerGluharSecurity, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerGluharSecurity, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerGluharSecurity, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerGluharSecurity, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerGluharScout, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerGluharScout, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerGluharScout, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerGluharScout, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerGluharSnipe, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerGluharSnipe, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerGluharSnipe, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerGluharSnipe, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerSanitar, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerSanitar, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerSanitar, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerSanitar, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossSanitar, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossSanitar, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossSanitar, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossSanitar, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: test, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: test, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: test, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: test, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: assaultGroup, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: assaultGroup, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: assaultGroup, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: assaultGroup, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: sectantWarrior, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: sectantWarrior, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: sectantWarrior, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: sectantWarrior, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: sectantPriest, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: sectantPriest, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: sectantPriest, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: sectantPriest, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossTagilla, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossTagilla, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossTagilla, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossTagilla, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerTagilla, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerTagilla, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerTagilla, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerTagilla, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: exUsec, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: exUsec, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: exUsec, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: exUsec, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: gifter, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: gifter, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: gifter, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: gifter, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossKnight, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossKnight, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossKnight, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossKnight, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBigPipe, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBigPipe, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBigPipe, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBigPipe, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBirdEye, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBirdEye, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBirdEye, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBirdEye, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossZryachiy, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossZryachiy, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossZryachiy, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossZryachiy, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerZryachiy, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerZryachiy, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerZryachiy, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerZryachiy, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossBoar, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossBoar, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossBoar, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossBoar, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBoar, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBoar, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBoar, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBoar, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: arenaFighter, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: arenaFighter, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: arenaFighter, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: arenaFighter, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: arenaFighterEvent, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: arenaFighterEvent, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: arenaFighterEvent, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: arenaFighterEvent, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossBoarSniper, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossBoarSniper, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossBoarSniper, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossBoarSniper, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: crazyAssaultEvent, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: crazyAssaultEvent, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: crazyAssaultEvent, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: crazyAssaultEvent, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: peacefullZryachiyEvent, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: peacefullZryachiyEvent, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: peacefullZryachiyEvent, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: peacefullZryachiyEvent, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: sectactPriestEvent, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: sectactPriestEvent, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: sectactPriestEvent, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: sectactPriestEvent, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: ravangeZryachiyEvent, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: ravangeZryachiyEvent, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: ravangeZryachiyEvent, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: ravangeZryachiyEvent, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBoarClose1, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBoarClose1, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBoarClose1, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBoarClose1, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerBoarClose2, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerBoarClose2, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerBoarClose2, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerBoarClose2, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: bossKolontay, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: bossKolontay, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: bossKolontay, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: bossKolontay, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerKolontayAssault, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerKolontayAssault, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerKolontayAssault, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerKolontayAssault, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: followerKolontaySecurity, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: followerKolontaySecurity, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: followerKolontaySecurity, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: followerKolontaySecurity, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: shooterBTR, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: shooterBTR, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: shooterBTR, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: shooterBTR, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: spiritWinter, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: spiritWinter, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: spiritWinter, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: spiritWinter, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: spiritSpring, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: spiritSpring, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: spiritSpring, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: spiritSpring, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: pmcBEAR, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: pmcBEAR, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: pmcBEAR, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: pmcBEAR, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: pmcUSEC, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: pmcUSEC, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: pmcUSEC, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: pmcUSEC, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: skier, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: skier, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: skier, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: skier, difficulty: impossible
+[Info   : Fika.Core] Retrieving data for: peacemaker, difficulty: easy
+[Info   : Fika.Core] Retrieving data for: peacemaker, difficulty: normal
+[Info   : Fika.Core] Retrieving data for: peacemaker, difficulty: hard
+[Info   : Fika.Core] Retrieving data for: peacemaker, difficulty: impossible
+[Info   :ModulePatch] Open: 36  Closed: 96  Locked: 39
+[Info   :  CoopGame] Location: Customs
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/maxCap/bigmap
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/maxCap/bigmap
+[Warning:ModulePatch] Set max bot cap to: 20
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/assault
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/assault
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/marksman
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/marksman
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/assault
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/assault
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/marksman
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/marksman
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/assault
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/assault
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/skier
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/skier
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/bossKnight
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/bossKnight
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/followerBigPipe
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/followerBigPipe
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/followerBirdEye
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/followerBirdEye
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/bossBully
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/bossBully
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/followerBully
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/followerBully
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/sectantPriest
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/sectantPriest
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/sectantWarrior
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/sectantWarrior
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/arenaFighterEvent
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/arenaFighterEvent
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/pmcBEAR
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/pmcBEAR
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/limit/pmcUSEC
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/limit/pmcUSEC
+[Info   :  CoopGame] Running new spawn system.
+[Info   :FikaAirdropsManager] Initializing...
+[Info   :  CoopGame] MatchingType: GroupLeader, Raid Code: 083UTR
+[Info   :FikaAirdropsManager] Airdrop is not available, destroying manager...
+[Warning:FikaAirdropsManager] Destroying AirdropsManager
+[Info   :  CoopGame] SpawnPoint: 0bfe7760-902e-4b79-8722-7ce2ad0a970c, InfiltrationPoint: Boiler Tanks
+[Info   :ModulePatch] 00:22:52 Loading bot: Knight profile from server. Role: bossKnight Side: Savage
+[Info   :RequestHandler] [REQUEST]: /singleplayer/scav/traitorscavhostile
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/scav/traitorscavhostile
+[Info   :ModulePatch] 00:22:53 Loading bot: Big Pipe profile from server. Role: followerBigPipe Side: Savage
+[Info   :ModulePatch] 00:22:53 Loading bot: Birdeye profile from server. Role: followerBirdEye Side: Savage
+[Info   :ModulePatch] 00:23:04 Loading bot: Максим Саратовский profile from server. Role: marksman Side: Savage
+[Info   :ModulePatch] 00:23:04 Loading bot: Мирослав Поц (Brin) profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 00:23:04 Loading bot: Созон Левый profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 00:23:04 Loading bot: Леня Заводской profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 00:23:04 Loading bot: joshj5Hawk profile from server. Role: pmcBEAR Side: Bear
+[Info   :ModulePatch] 00:23:04 Loading bot: Crackbone profile from server. Role: pmcUSEC Side: Usec
+[Info   :ModulePatch] 00:23:04 Loading bot: Самуил Макаров profile from server. Role: marksman Side: Savage
+[Info   :ModulePatch] 00:23:04 Loading bot: Святослав Карась profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 00:23:04 Loading bot: Слава Крезибамп profile from server. Role: marksman Side: Savage
+[Info   :ModulePatch] 00:23:04 Loading bot: Анатолий Гашеный profile from server. Role: marksman Side: Savage
+[Info   :ModulePatch] 00:23:04 Loading bot: MechanicMan396 profile from server. Role: pmcBEAR Side: Bear
+[Info   :ModulePatch] 00:23:05 Loading bot: Фёдор Пиздюли (TheRedCap) profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 00:23:05 Loading bot: Сема Вортекс profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 00:23:05 Loading bot: Дед Правильный profile from server. Role: marksman Side: Savage
+[Info   :ModulePatch] 00:23:05 Loading bot: Степан Хитрожопый profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 00:23:07 Loading bot: BrandoTheDev profile from server. Role: pmcBEAR Side: Bear
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/getBotBehaviours/
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/getBotBehaviours/
+[Warning:ModulePatch] Cached ai brain weights in client
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Warning:ModulePatch] Updated spt bot MechanicMan396: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Warning:ModulePatch] Updated spt bot joshj5Hawk: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :ModulePatch] 00:23:09 Loading bot: Юрец Рама profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated spt bot Crackbone: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot BrandoTheDev: pmcBEAR to use: pmcBot brain
+[Info   :ModulePatch] 00:23:29 Loading bot: Олег Кацман profile from server. Role: marksman Side: Savage
+[Info   :ModulePatch] 00:23:29 Loading bot: Юрий Секретарь profile from server. Role: assault Side: Savage
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[MoveNext().teleport()]:] : [Bot12 has teleported because they were stuck after vaulting, and no human players are visible to them, and no human players are close.]
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :ModulePatch] 00:23:59 Loading bot: Тихон Сумрак profile from server. Role: marksman Side: Savage
+[Info   :ModulePatch] 00:23:59 Loading bot: Федот Пшеничка (Akiw) profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot2] has been stuck for [5.110718] seconds on [Bot1] object at [(212.5, 1.4, -107.2)] with Current Decision as [MoveToCover]]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot1] has been stuck for [5.110718] seconds on [Bot2] object at [(212.5, 1.4, -107.2)] with Current Decision as [MoveToCover]]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot2] has been stuck for [15.33081] seconds on [Bot1] object at [(212.5, 1.4, -107.2)] with Current Decision as [MoveToCover]]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot1] has been stuck for [15.33081] seconds on [Bot2] object at [(212.5, 1.4, -107.2)] with Current Decision as [MoveToCover]]
+[Info   :ModulePatch] 00:24:29 Loading bot: 老人 profile from server. Role: pmcBEAR Side: Bear
+[Warning: DynamicAI] Could not remove Bot20 from bots list.
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot1] has been stuck for [25.49792] seconds on [Bot2] object at [(212.5, 1.4, -107.2)] with Current Decision as [MoveToCover]]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot2] has been stuck for [5.067017] seconds on [Bot1] object at [(212.5, 1.4, -107.2)] with Current Decision as [Retreat]]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot1] has been stuck for [5.047363] seconds on [Bot2] object at [(212.5, 1.4, -107.2)] with Current Decision as [MoveToCover]]
+[Info   :ModulePatch] 00:24:44 Loading bot: Фаддей Зуко (CrocodileJonesy) profile from server. Role: assault Side: Savage
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot2] has been stuck for [15.22839] seconds on [Cube (5)] object at [(215.1, 0.9, -110.2)] with Current Decision as [MoveToCover]]
+[Warning:ModulePatch] Updated spt bot 老人: pmcBEAR to use: pmcBot brain
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot1] has been stuck for [15.22754] seconds on [Bot2] object at [(212.5, 1.4, -107.2)] with Current Decision as [MoveToCover]]
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot2] has been stuck for [25.38879] seconds on [Cube (5)] object at [(215.1, 0.9, -110.2)] with Current Decision as [MoveToCover]]
+[Info   :ModulePatch] 00:24:59 Loading bot: pitAlex profile from server. Role: pmcBEAR Side: Bear
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot2] has been stuck for [35.5495] seconds on [Cube (5)] object at [(215.1, 0.9, -110.2)] with Current Decision as [Search]]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot1] has been stuck for [5.102112] seconds on [Bot2] object at [(212.5, 1.4, -107.2)] with Current Decision as [Search]]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot2] has been stuck for [45.70502] seconds on [Cube (5)] object at [(215.1, 0.9, -110.2)] with Current Decision as [Search]]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot1] has been stuck for [15.24799] seconds on [Bot2] object at [(212.5, 1.4, -107.2)] with Current Decision as [Search]]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot2] has been stuck for [55.89899] seconds on [Cube (5)] object at [(215.1, 0.9, -110.2)] with Current Decision as [Search]]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot1] has been stuck for [25.45142] seconds on [Bot2] object at [(212.5, 1.4, -107.2)] with Current Decision as [Search]]
+[Info   :ModulePatch] 00:25:29 Loading bot: MedDeatH profile from server. Role: pmcBEAR Side: Bear
+[Warning:ModulePatch] Updated spt bot pitAlex: pmcBEAR to use: pmcBot brain
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot2] has been stuck for [66.05658] seconds on [Cube (5)] object at [(215.1, 0.9, -110.2)] with Current Decision as [Search]]
+[Warning:ModulePatch] Updated spt bot MedDeatH: pmcBEAR to use: pmcBot brain
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[MoveNext().teleport()]:] : [Bot14 has teleported because they were stuck after vaulting, and no human players are visible to them, and no human players are close.]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.BotBusyHandsDetector] : [[checkBusyTooLong().resetHands()]:] : [[Bot21] is resetting hands because [generic] too long!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.BotBusyHandsDetector] : [[checkBusyTooLong().resetHands()]:] : [[Bot7] is resetting hands because [generic] too long!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.BotBusyHandsDetector] : [[checkBusyTooLong().resetHands()]:] : [[Bot23] is resetting hands because [generic] too long!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[MoveNext().teleport()]:] : [Bot25 has teleported because they were stuck after vaulting, and no human players are visible to them, and no human players are close.]
+[Warning: DynamicAI] Could not remove Bot5 from bots list.
+[Info   :ModulePatch] 00:30:22 Loading bot: Таир Рыжий profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 00:30:22 Loading bot: Диман Мошенник profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 00:30:22 Loading bot: Стас Гоблин profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :ModulePatch] 00:30:35 Loading bot: Федя Хорс profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :      SAIN] [SAIN.Layers.ExtractLayer] : [[ExtractFromInjury()]:] : [[Bot28] Is Moving to Extract because of heavy injury and lack of healing items.]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.BotBusyHandsDetector] : [[checkBusyTooLong().resetHands()]:] : [[Bot7] is resetting hands because [generic] too long!]
+[Info   :ModulePatch] 00:32:47 Loading bot: Джонни Козий-сыр profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 00:32:47 Loading bot: craink profile from server. Role: pmcBEAR Side: Bear
+[Info   :ModulePatch] 00:32:47 Loading bot: Лева Любитель profile from server. Role: marksman Side: Savage
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :ModulePatch] 00:33:02 Loading bot: 3 TO 8 BATTLE CRABS profile from server. Role: pmcUSEC Side: Usec
+[Info   :ModulePatch] 00:33:33 Loading bot: Даня Лыжи profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 00:33:33 Loading bot: Филат Шкаф profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :ModulePatch] 00:35:04 Loading bot: aleves profile from server. Role: pmcUSEC Side: Usec
+[Warning:ModulePatch] Updated spt bot aleves: pmcUSEC to use: pmcBot brain
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.BotBusyHandsDetector] : [[checkBusyTooLong().resetHands()]:] : [[Bot23] is resetting hands because [generic] too long!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.BotBusyHandsDetector] : [[checkBusyTooLong().resetHands()]:] : [[Bot7] is resetting hands because [generic] too long!]
+[Info   :ModulePatch] 00:36:03 Loading bot: TGDelta2455 profile from server. Role: pmcUSEC Side: Usec
+[Warning:ModulePatch] Updated spt bot TGDelta2455: pmcUSEC to use: pmcBot brain
+[Info   :ModulePatch] 00:36:49 Loading bot: Hobbes profile from server. Role: pmcUSEC Side: Usec
+[Warning:ModulePatch] Updated spt bot Hobbes: pmcUSEC to use: pmcBot brain
+[Info   :ModulePatch] 00:37:34 Loading bot: Кися Арбидол profile from server. Role: assault Side: Savage
+[Warning: DynamicAI] Could not remove Bot6 from bots list.
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :ModulePatch] 00:37:49 Loading bot: Трифон Хлыст profile from server. Role: assault Side: Savage
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.BotBusyHandsDetector] : [[checkBusyTooLong().resetHands()]:] : [[Bot23] is resetting hands because [generic] too long!]
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :ModulePatch] 00:38:19 Loading bot: bandit profile from server. Role: pmcUSEC Side: Usec
+[Warning:ModulePatch] Updated spt bot bandit: pmcUSEC to use: pmcBot brain
+[Info   :ModulePatch] 00:39:05 Loading bot: Вадимка Очки profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 00:39:22 Loading bot: Queen-Goddess profile from server. Role: pmcUSEC Side: Usec
+[Info   :      SAIN] [SAIN.Layers.ExtractLayer] : [[ExtractFromInjury()]:] : [[Bot15] Is Moving to Extract because of heavy injury and lack of healing items.]
+[Info   :      SAIN] [SAIN.Layers.ExtractLayer] : [[ExtractFromInjury()]:] : [[Bot15] Is Moving to Extract because of heavy injury and lack of healing items.]
+[Info   :ModulePatch] 00:40:35 Loading bot: Vega profile from server. Role: pmcBEAR Side: Bear
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/getBotBehaviours/
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/getBotBehaviours/
+[Warning:ModulePatch] Cached ai brain weights in client
+[Warning:ModulePatch] Updated spt bot Vega: pmcBEAR to use: pmcBot brain
+[Info   :ModulePatch] 00:41:05 Loading bot: agavalda profile from server. Role: pmcBEAR Side: Bear
+[Warning:ModulePatch] Updated spt bot agavalda: pmcBEAR to use: pmcBot brain
+[Info   :ModulePatch] 00:41:35 Loading bot: Фриз Банщик (Faupi) profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated spt bot 3 TO 8 BATTLE CRABS: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot craink: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :ModulePatch] 00:42:05 Loading bot: Гоша Вдовец profile from server. Role: marksman Side: Savage
+[Info   :ModulePatch] 00:42:05 Loading bot: Лёва Градус profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated spt bot Queen-Goddess: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.BotBusyHandsDetector] : [[checkBusyTooLong().resetHands()]:] : [[Bot10] is resetting hands because [generic] too long!]
+[Info   :ModulePatch] 00:42:35 Loading bot: Ильнур Чайковский profile from server. Role: marksman Side: Savage
+[Info   :ModulePatch] 00:42:35 Loading bot: Володя Собакин profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 00:42:35 Loading bot: Archy profile from server. Role: pmcUSEC Side: Usec
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Warning:ModulePatch] Updated spt bot Archy: pmcUSEC to use: pmcBot brain
+[Info   :ModulePatch] 00:43:05 Loading bot: Тима Вонючка profile from server. Role: assault Side: Savage
+[Info   :ModulePatch] 00:43:05 Loading bot: Армен Внесистемный profile from server. Role: marksman Side: Savage
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[MoveNext().teleport()]:] : [Bot37 has teleported because they were stuck after vaulting, and no human players are visible to them, and no human players are close.]
+[Info   :      SAIN] [SAIN.Layers.ExtractLayer] : [[ExtractFromInjury()]:] : [[Bot26] Is Moving to Extract because of heavy injury and lack of healing items.]
+[Info   :      SAIN] [SAIN.Layers.ExtractLayer] : [[ExtractFromInjury()]:] : [[Bot26] Is Moving to Extract because of heavy injury and lack of healing items.]
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Info   :ModulePatch] 00:43:20 Loading bot: jehree profile from server. Role: pmcBEAR Side: Bear
+[Info   :ModulePatch] 00:43:20 Loading bot: Толян Гашеный profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Warning:ModulePatch] Updated spt bot jehree: pmcBEAR to use: pmcBot brain
+[Info   :ModulePatch] 00:44:04 Loading bot: Maxwell the cat profile from server. Role: pmcBEAR Side: Bear
+[Info   :ModulePatch] 00:44:04 Loading bot: bunray profile from server. Role: pmcBEAR Side: Bear
+[Warning:ModulePatch] Updated spt bot Maxwell the cat: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot bunray: pmcBEAR to use: pmcBot brain
+[Info   :ModulePatch] 00:44:34 Loading bot: DjLang profile from server. Role: pmcUSEC Side: Usec
+[Info   :ModulePatch] 00:44:49 Loading bot: Arys profile from server. Role: pmcBEAR Side: Bear
+[Info   :ModulePatch] 00:44:52 Loading bot: ShadowXtrex profile from server. Role: pmcUSEC Side: Usec
+[Warning:ModulePatch] Updated spt bot Arys: pmcBEAR to use: pmcBot brain
+[Info   :ModulePatch] 00:45:19 Loading bot: Гурам Упитыш (rayleefx) profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Info   :ModulePatch] 00:45:49 Loading bot: Кабан Бурят (Fiaf) profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated player scav bot to use: pmcBot brain
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot40] has been stuck for [5.112427] seconds on [] object at [] with Current Decision as [Search]]
+[Info   :ModulePatch] 00:47:04 Loading bot: mighty_condor profile from server. Role: pmcBEAR Side: Bear
+[Warning:ModulePatch] Updated spt bot mighty_condor: pmcBEAR to use: pmcBot brain
+[Info   :ModulePatch] 00:47:34 Loading bot: Сева Мальчик profile from server. Role: assault Side: Savage
+[Warning:ModulePatch] Updated assault bot to use: assault brain
+[Warning:ModulePatch] Updated spt bot DjLang: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot ShadowXtrex: pmcUSEC to use: pmcBot brain
+[Info   :      SAIN] [SAIN.Layers.ExtractLayer] : [[ExtractFromTime()]:] : [[Bot40] Is Moving to Extract with [28.74883] of the raid remaining.]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot40] has been stuck for [5.109863] seconds on [] object at [] with Current Decision as [ShiftCover]]
+[Info   :      SAIN] [SAIN.Layers.ExtractLayer] : [[ExtractFromTime()]:] : [[Bot55] Is Moving to Extract with [27.70163] of the raid remaining.]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Search.SAINSearchClass] : [[Search().SwitchSearchModes()]:] : [Bot40's cannot peek and cannot direct move!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Search.SAINSearchClass] : [[Search().SwitchSearchModes()]:] : [Bot40's cannot peek and cannot direct move!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Search.SAINSearchClass] : [[Search().SwitchSearchModes()]:] : [Bot40's cannot peek and cannot direct move!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Search.SAINSearchClass] : [[Search().SwitchSearchModes()]:] : [Bot40's cannot peek and cannot direct move!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Search.SAINSearchClass] : [[Search().SwitchSearchModes()]:] : [Bot40's cannot peek and cannot direct move!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Search.SAINSearchClass] : [[Search().SwitchSearchModes()]:] : [Bot40's cannot peek and cannot direct move!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Search.SAINSearchClass] : [[Search().SwitchSearchModes()]:] : [Bot40's cannot peek and cannot direct move!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Search.SAINSearchClass] : [[Search().SwitchSearchModes()]:] : [Bot40's cannot peek and cannot direct move!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Search.SAINSearchClass] : [[Search().SwitchSearchModes()]:] : [Bot40's cannot peek and cannot direct move!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Search.SAINSearchClass] : [[Search().SwitchSearchModes()]:] : [Bot40's cannot peek and cannot direct move!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Search.SAINSearchClass] : [[Search().SwitchSearchModes()]:] : [Bot40's cannot peek and cannot direct move!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Search.SAINSearchClass] : [[Search().SwitchSearchModes()]:] : [Bot40's cannot peek and cannot direct move!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Search.SAINSearchClass] : [[Search().SwitchSearchModes()]:] : [Bot40's cannot peek and cannot direct move!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Search.SAINSearchClass] : [[Search().SwitchSearchModes()]:] : [Bot40's cannot peek and cannot direct move!]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot40] has been stuck for [5.084961] seconds on [] object at [] with Current Decision as [Search]]
+[Warning:      SAIN] [SAIN.SAINComponent.Classes.Debug.SAINBotUnstuckClass] : [[doStuckChecks().tryFixStuckBot()]:] : [[Bot40] has been stuck for [15.31079] seconds on [] object at [] with Current Decision as [Search]]
+[Info   :      SAIN] [SAIN.Layers.ExtractLayer] : [[ExtractFromInjury()]:] : [[Bot58] Is Moving to Extract because of heavy injury and lack of healing items.]
+[Info   :      SAIN] [SAIN.Layers.ExtractLayer] : [[ExtractFromInjury()]:] : [[Bot58] Is Moving to Extract because of heavy injury and lack of healing items.]
+[Info   :CoopHandler] F8 pressed, attempting to extract!
+[Warning: Fika.Core] Unable to remove d264b7535f63e1ddb1f41381 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove a10043b9faf9b0440ff1aa16 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 0e6646a53f7ce6ff288be6c2 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 11d1fec3cd1bbc3c4efae4a7 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 8da4326efa6efbb9c8d3a30b from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove ec46af0de36e802845337afa from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 7563f73685a600ff6e2b17bf from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove d3eefc62cc1204c162665374 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 586f652c0c0feb3390fd3b59 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 38cdb77f1bda275a3106df9d from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 35e667d656562b02775dee2a from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 972d6e62d6c7c9d622a9ac01 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 3932d51757cb5abefb7b6cb3 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 1f47428960efe570777919d1 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 84a4bfbc8de0d8cbee6e39e5 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 4c6a0cf54fe9d98cd65335d5 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove b22f6a79d668571373033e95 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove e13bbbf57110ec623796eec2 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove dea6fcbc3b35a9f4073e3057 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 76a427940844b9cee847fee3 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove defcbd290cda1a3e18f139be from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove da2ff43469f2c2e0e426a55f from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 3a03ad0c5e71f51fb62308bd from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove b170d9fa9b5662103b65defa from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove d008b20f5beb54e3695a8b79 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove ef2c3eaa1b6df109f0ee954d from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 0e7a6a0f6df28040e6e35a8a from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 10da86fe9689bd6486d20924 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 2a93e68c0df72b4ecd14f642 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove b63f41cbf9c9b9f5055081f2 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 39de2f2122341089455ed967 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 9ec0f2ef86bafbe4eb0f4e36 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 0c2c0de47c0294bec66559b1 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 4cf7bce91e4eed8caff5bb79 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove ba38fef8ea31db05767a4e4a from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove d4f55c7d2dac92d44c9c57cd from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 6f2cffc96f1eecfb0cb6f9e4 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove e48edcee58c88327974d330c from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove e24f07d7091266add02da9ee from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 11e501c92a15e78d775d26cd from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove d9a07795d0e8bdd9e17453ca from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 1a5067da12c7fe266daf2550 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 02224f55eba59fc2f570a38e from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove bfd5e02c64ba680a3cedc4b9 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove 732ceb8f43e9a81b68b74a30 from CoopGame.Bots when Destroying
+[Warning: Fika.Core] Unable to remove a8287c00757b6eb3c759a1ec from CoopGame.Bots when Destroying
+[Info   :RequestHandler] [REQUEST]: /raid/profile/save
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /raid/profile/save
+[Info   :NetManagerUtils] Destroyed FikaServer
+[Warning:  HarmonyX] AccessTools.Property: Could not find property for type GClass3119 and name Effects
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
+[Info   :RequestHandler] [REQUEST]: /player/health/sync
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /player/health/sync
